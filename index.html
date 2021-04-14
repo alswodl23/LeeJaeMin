@@ -1,371 +1,882 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/Basic.css">
-    <script src="https://kit.fontawesome.com/816d73dec6.js" crossorigin="anonymous"></script>
-    <script src="js/jquery-1.12.4.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/jquery.mousewheel.min.js"></script>
-    <script src="js/wheel_event.js"></script>
-    <script src="js/Side_right.js"></script>
-    <script src="js/Side_left_sns.js"></script>
-    <script src="js/m_fadein_out.js"></script>
-    <script src="js/Contents_box_slide.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 
-    <title>Home</title>
+    <script src="https://kit.fontawesome.com/816d73dec6.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.mousewheel.min.js"></script>
+	<script src="js/custom.js"></script>
+    
+    <script src="js/home_slid.js"></script>
+    <script src="js/login_pop.js"></script>
+    <script src="js/playbox.js"></script>
+    <script src="js/menu2.js"></script>
+    <script src="js/slid.js"></script>
+
+
+    <title>World Music</title>
+
+    
 </head>
 <body>
-    <div class="Bar_box after">
-        <div class="logo">
-            <div class="logo_img">
-                <a href="#main"></a>
-            </div>
-        </div>
-        <div class="H_bar_header">
-            <ul class="H_bar after">
+    <div id="wrap">
+        <div id="header">
+            <ul class="video_1">
                 <li>
-                    <a href="#">
-                        Home
-                    </a>
+                    <div></div>
                 </li>
                 <li>
-                    <a href="#">
-                        Introduce
-                    </a>
+                    <div></div>
                 </li>
                 <li>
-                    <a href="#">
-                        Content
-                    </a>
+                    <div></div>
                 </li>
                 <li>
-                    <a href="#">
-                        News
-                    </a>
+                    <div></div>
                 </li>
                 <li>
-                    <a href="#">
-                        Footer
-                    </a>
+                    <div></div>
                 </li>
             </ul>
-        </div>
-        <div class="H_blink_box"></div>
-    </div>
-    <div class="Side_rignt">
-        <ul>
-            <li class = "on">
-                <a href="#main"></a>
-            </li>
-            <li>
-                <a href="#contents"></a>
-            </li>
-            <li>
-                <a href="#footer"></a>
-            </li>
-        </ul>
-    </div>
-    <div class="Side_left_sns">
-        <ul>
-            <li>
-                <a href="#" class="facebook">
-                    <i class="fab fa-facebook-square"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="google">
-                    <i class="fab fa-google"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="youtube">
-                    <i class="fab fa-youtube"></i>
-                </a>
-            </li>
-        </ul>
-        <div class="Side_left_sns_btn1 on">
-            <a href="#">
-                <i class="fas fa-caret-right"></i>
-            </a>
-        </div>
-        <div class="Side_left_sns_btn2">
-            <a href="#">
-                <i class="fas fa-caret-left"></i>
-            </a>
-        </div>
-    </div>
-    <div id="wrap">
-        <div id="main">
-            <div class="m_bg_img">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <div class="m_bottom_btn">
-                <ul class="after">
-                    <li class="on">
-                        <a href="#">
-                            <div></div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div></div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div></div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div></div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div></div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="m_blackbox"></div>
-            <div class="m_textbox">
-                <h1>자연과 사람, 조화가 함께하는 섬</h1>
-                <p>드넓은 바다와 아름다운 올래길<br>
-                    자연의 아름다움을 담고있는 제주도가 당신을 기다립니다</p>
-            </div>
-            <div class="m_bt1">
-                <a href="https://www.jeju.go.kr/index.htm" target="_blank"> VIEW MORE </a>
-            </div>
+            <div class="bg_1">
+                <div class="bar_1">
+                    <input type="search" placeholder="Search">
+                    <i class="fas fa-search transform"></i>
+                </div>
+                <div class="chart_main transform">
+                    <ul class="after">
+                        <li>
+                            <p>Top charts 10</p>
+                            <ul class="chart_box">
+                                <li>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>1...</li>
+                                            <li>에잇(Prod.&Feat. SUGA of BTS)</li>
+                                            <li>아이유</li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>2...</li>
+                                            <li>나비와 고양이 (feat.백현 (BAEKHYUN))</li>
+                                            <li>볼빨간사춘기</li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>3...</li>
+                                            <li>아로하</li>
+                                            <li>조정석</li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>4...</li>
+                                            <li>살짝 설렜어 (Nonstop)</li>
+                                            <li>오마이걸</li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>5...</li>
+                                            <li>ON</li>
+                                            <li>방탄소년단</li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>6...</li>
+                                            <li>MAP OF THE SOUL : PERSONA</li>
+                                            <li>방탄소년단</li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>7...</li>
+                                            <li>Punch</li>
+                                            <li>NCT 127</li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>8...</li>
+                                            <li>00:00 (Zero O’Clock)</li>
+                                            <li>방탄소년단</li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>9...</li>
+                                            <li>좋은 사람 있으면 소개시켜줘</li>
+                                            <li>조이 (JOY)</li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>10...</li>
+                                            <li>덤더럼(Dumhdurum)</li>
+                                            <li>Apink (에이핑크)</li>
+                                        </ul>
+                                    </a>
+                                </li>    
+                            </ul>
+                        </li>
+                        <li>
+                            <p>POP charts</p>
+                            <ul class="chart_box">
+                                <li>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>1...</li>
+                                            <li>Dance Monkey</li>
+                                            <li>Tones And I</li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>2...</li>
+                                            <li>Don't Start Now</li>
+                                            <li>Dua Lipa</li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>3...</li>
+                                            <li>2002</li>
+                                            <li>Anne-Marie</li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>4...</li>
+                                            <li>Memories</li>
+                                            <li>Maroon 5</li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>5...</li>
+                                            <li>Maniac</li>
+                                            <li>Conan Gray</li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>6...</li>
+                                            <li>Paris In The Rain</li>
+                                            <li>Lauv</li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>7...</li>
+                                            <li>To Die For</li>
+                                            <li>Sam Smith</li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>8...</li>
+                                            <li>Stuck with U</li>
+                                            <li>Ariana Grande, Justin Bieber</li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>9...</li>
+                                            <li>bad guy</li>
+                                            <li>Billie Eilish</li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>10...</li>
+                                            <li>Painkiller</li>
+                                            <li>Ruel</li>
+                                        </ul>
+                                    </a>
+                                </li>    
+                            </ul>
+                        </li>
+                        <li>
+                            <p>Artists</p>
+                            <ul class="chart_box">
+                                <li>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>1...</li>
+                                            <li>NCT 127</li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>2...</li>
+                                            <li>방탄소년단</li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>3...</li>
+                                            <li>아이유</li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>4...</li>
+                                            <li>투모로우바이투게더</li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>5...</li>
+                                            <li>볼빨간사춘기</li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>6...</li>
+                                            <li>임영웅</li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>7...</li>
+                                            <li>오마이걸</li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>8...</li>
+                                            <li>김호중</li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>9...</li>
+                                            <li>CHEEZE (치즈)</li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">
+                                        <ul class="after CM_1">
+                                            <li>10...</li>
+                                            <li>DAY6 (데이식스)</li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                </li>    
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="login">
+                    <ul>
+                        <li>
+                            <a href="#" class="loginA on">Sign in <i class="fas fa-chevron-up"></i></a>
+                            <a href="#" class="loginB">Sign in <i class="fas fa-chevron-down"></i></a>
+                        </li>
+                    </ul>
+                    <div class="pop1">
+                        <input type="text" placeholder="Id">
+                        <input type="password" name="비밀번호" id="" placeholder="Password">
+                        <div class="lo_box1"><a href="#">로그인</a></div>
+                        <div class="after lo_box2">
+                            <div>
+                                <a href="#"></a>
+                            </div>
+                            <p>로그인 정보 저장</p>
+                        </div>
+                        <p><a href="#">아이디/비밀번호 찾기</a></p>
+                        <p><a href="#">회원가입 하러가기</a></p>
+                    </div>
+                </div>
+                <div class="logo transform">
+                    <div class="logo_1">
+                        <div>
+                            <a href="#"><img src="img/logo2.gif." alt=""></a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <i class="fas fa-mouse"></i>
+                                <i class="fas fa-angle-double-down"></i>
+                            </a>                    
+                        </div>
+                    </div>
+                </div>
+            </div>        
         </div>
         <div id="contents">
-            <div>
-                <ul class="after con_click">
-                    <li class="on">
-                        <a href="#">
-                            제주도 여행지를 한 눈에!
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            다양한 음식의 천국 제주도
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            쇼핑, 소비의 기쁨을 즐기세요!
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="after con con_box1 on">
+            <div class="con">
                 <ul>
-                    <li>
-                        <h1>
-                            성산일출봉(UNESCO 세계자연유산)
-                        </h1>
-                        <div class="con_box1_img1"></div>
-                        <div>
-                            <p>
-                                현재 성산일출봉은 정부의 사회적 거리두기 방역조치 조정에 따라 이용인원을 제한하여, 하루 1,200명까지만 입장이 가능합니다.<br>
-                                방문전에는 전화 등을 통해 이용방법을 미리 확인해주시고, 마스크 착용, 입장전 발열체크, 참석명부 작성 등 방역수침 지침도 준수해주시기 바랍니다.<br>
-                                <br>
-                                성산일출봉은 제주도의 다른 오름들과는 달리 마그마가 물속에서 분출하면서 만들어진 수성화산체다. 화산활동시 분출된 뜨거운 마그마가 차가운 바닷물과 만나면서 화산재가 습기를 많이 머금어 끈끈한 성질을 띄게 되었고, 이것이 층을 이루면서 쌓인 것이 성산일출봉이다.<br>
-                                <br>
-                                바다 근처의 퇴적층은 파도와 해류에 의해 침식되면서 지금처럼 경사가 가파른 모습을 띄게 되었다. 생성 당시엔 제주 본토와 떨어진 섬이었는데, 주변에 모래와 자갈등이 쌓이면서 간조 때면 본토와 이어지는 길이 생겼고, 1940년엔 이곳에 도로가 생기면서 현재는 육지와 완벽하게 연결되어 있다.<br>
-                            </p>
-                        </div>
-                        <div>
-                            <a href="https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500349&menuId=DOM_000001718001000000#p1" target="_blank">
-                                더보기 
-                                <i class="fas fa-chevron-circle-right"></i>
+                    <li class="sidemenu">
+                        <div class="logo_2">
+                            <a href="#" class="after">
+                                <div>
+                                    <img src="img/logo.gif" alt="">
+                                </div>
+                                <p>World Music</p>
                             </a>
                         </div>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <h1>
-                            사려니숲길
-                        </h1>
-                        <div class="con_box1_img2"></div>
-                        <div>
-                            <p>
-                                사려니숲길은 제주의 숨은 비경 31곳 중 하나로, 비자림로를 시작으로 물찻오름과 사려니 오름을 거쳐가는 삼나무가 우거진 숲길이다.<br>
-                                사려니오름까지 이어지는 숲길이기 때문에 사려니숲길이라고 불린다.
-                                ‘사려니’는 ‘신성한 숲’ 혹은 ‘실 따위를 흩어지지 않게 동그랗게 포개어 감다’라는 뜻으로 숲길을 거닐면 상쾌한 삼나무 향에 포개진 듯한 느낌을 받을 수 있다.<br>
-                                빽빽한 삼나무뿐만 아니라 졸참나무, 서어나무, 때죽나무, 편백나무 등 다양한 수종이 서식하고 있다.<br>
-                                다양한 수종이 서식하기 때문에 오소리와 제주족제비를 비롯한 포유류, 팔색조와 참매를 비롯한 조류, 쇠살모사를 비롯한 파충류 등의 보금자리가 되기도 한다.<br>
-                            </p>
+                        <div class="bar_2">
+                            <input type="search">
+                            <i class="fas fa-search"></i>
                         </div>
-                        <div>
-                            <a href="https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500281&menuId=DOM_000001718001000000#p1" target="_blank">
-                                더보기 
-                                <i class="fas fa-chevron-circle-right"></i>
+                        <div class="Browse Browse1">
+                            <h2>Browse</h2>
+                            <ul>
+                                <li>
+                                    <a href="#" class="after">
+                                        <i class="fas fa-microphone"></i>
+                                        <p>POP chart</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="after">
+                                        <i class="far fa-image"></i>
+                                        <p>Albums</p>
+                                    </a>
+                                </i>
+                                <li>
+                                    <a href="#" class="after">
+                                        <i class="fas fa-user"></i>
+                                        <p>Artists</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="after">
+                                        <i class="fas fa-video"></i>
+                                        <p>Video</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="Browse Browse2">
+                            <h2>MY MUSIC</h2>
+                            <ul>
+                                <li>
+                                    <a href="#" class="after">
+                                        <i class="fas fa-history"></i>
+                                        <p>Recently Played</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="after">
+                                        <i class="fas fa-heart"></i>
+                                        <p>Favorite Songs</p>
+                                    </a>
+                                </i>
+                                <li>
+                                    <a href="#" class="after">
+                                        <i class="far fa-file-alt"></i>
+                                        <p>Local Files</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="playbox playbox1">
+                            <div>
+                                <p>Play List</p>
+                            </div>
+                            <ul>
+                                <li class="pb1_1 after">
+                                    <a href="#">
+                                        <div class="pb1_1_img">
+                                            <img src="img/ex2.jpg" alt="">
+                                        </div>
+                                        <div><h3>에잇(Prod.&Feat. SUGA of BTS)</h3></div>
+                                        <div><p>아이유</p></div>
+                                    </a>
+                                </li>
+                                <li class="pb1_1 after">
+                                    <a href="#">
+                                        <div class="pb1_1_img">
+                                            <img src="img/ex1.jpg" alt="">
+                                        </div>
+                                        <div><h3>나비와 고양이 (feat.백현 (BAEKHYUN))</h3></div>
+                                        <div><p>볼빨간 사춘기</p></div>
+                                    </a>
+                                </li>
+                                <li class="pb1_1 after">
+                                    <a href="#">
+                                        <div class="pb1_1_img">
+                                            <img src="img/ex3.jpg" alt="">
+                                        </div>
+                                        <div><h3>아로하</h3></div>
+                                        <div><p>조정석</p></div>
+                                    </a>
+                                </li>
+                                <li class="pb1_1 after">
+                                    <a href="#">
+                                        <div class="pb1_1_img">
+                                            <img src="img/ex4.jpg" alt="">
+                                        </div>
+                                        <div><h3>Candy</h3></div>
+                                        <div><p>백현 (BAEKHYUN)</p></div>
+                                    </a>
+                                </li>
+                                <li class="pb1_1 after">
+                                    <a href="#">
+                                        <div class="pb1_1_img">
+                                            <img src="img/ex5.jpg" alt="">
+                                        </div>
+                                        <div><h3>사랑하게 될 줄 알았어</h3></div>
+                                        <div><p>전미도</p></div>
+                                    </a>
+                                </li>
+                                <li class="pb1_1 after">
+                                    <a href="#">
+                                        <div class="pb1_1_img">
+                                            <img src="img/ex6.jpg" alt="">
+                                        </div>
+                                        <div><h3>살짝 설렜어 (Nonstop)</h3></div>
+                                        <div><p>오 마이 걸</p></div>
+                                    </a>
+                                </li>
+                                <li class="pb1_1 after">
+                                    <a href="#">
+                                        <div class="pb1_1_img">
+                                            <img src="img/ex7.jpg" alt="">
+                                        </div>
+                                        <div><h3>ON</h3></div>
+                                        <div><p>방탄소년단</p></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="playbox playbox2">
+                            <ul>
+                                <li class="pb2_1">
+                                    <p>Play List</p>
+                                    <a href="#" class="pb2_1_1 on"><i class="fas fa-angle-up"></i></a>
+                                    <a href="#" class="pb2_1_2"><i class="fas fa-angle-down"></i></a>
+                                </li>
+                                <li class="pb2_2">
+                                    <div>
+                                        <p>나비와 고양이 (feat.백현 (BAEKHYUN))</p>
+                                        <p>볼빨간사춘기</p>
+                                    </div>                               
+                                </li>
+                                <li class="pb2_3">
+                                    <div class="pb2_3_1"></div>
+                                    <div class="pb2_3_2"></div>
+                                </li>
+                                <li class="pb2_4">
+                                    <a href="#">
+                                        <!-- 이부분은 전에 배웠던 누르면 이미지가 비뀌는 그걸 이용하면 됨 임시로 on 넣어놈-->
+                                        <i class="far fa-play-circle on"></i>
+                                        <i class="far fa-pause-circle"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fas fa-random"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fas fa-step-backward"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fas fa-step-forward"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fas fa-sync-alt"></i>
+                                    </a>
+                                </li>
+                                <li class="pb2_time transform after">
+                                    <p>00:00</p>
+                                    <p>03:24</p>
+                                </li>
+                            </ul>
+                        </div>
+    
+                    </li>
+                    <li class="mainmenu mainmenu1">
+                        <ul class="after">
+                            <li class="mam_1 mam_1A after">
+                                <div class="mam_1A_1">
+                                    <h2>Top charts 5</h2>
+                                    <a href="#">
+                                        <p><i class="fas fa-plus"></i>show more</p>
+                                    </a>
+                                    <ul>
+                                        <li class="after mam_1A_1A_1 mam_1A_1A_1A">
+                                            <div>
+                                                <a href="#">
+                                                   <i class="far fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <div>
+                                                    <a href="#"></a>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div>
+                                                    <a href="#">
+                                                        <h3 class="text_over">
+                                                            에잇(Prod.&Feat. SUGA of BTS)
+                                                    </h3>
+                                                    </a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">
+                                                        <p>
+                                                            아이유
+                                                       </p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p class="transform">
+                                                    03:42
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="after mam_1A_1A_1 mam_1A_1A_1B">
+                                            <div>
+                                                <a href="#">
+                                                   <i class="far fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <div>
+                                                    <a href="#"></a>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div>
+                                                    <a href="#">
+                                                        <h3 class="text_over">
+                                                            나비와 고양이 (feat.백현 (BAEKHYUN))
+                                                    </h3>
+                                                    </a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">
+                                                        <p>
+                                                            볼빨간사춘기
+                                                       </p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p class="transform">
+                                                    03:24
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="after mam_1A_1A_1 mam_1A_1A_1C">
+                                            <div>
+                                                <a href="#">
+                                                   <i class="far fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <div>
+                                                    <a href="#"></a>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div>
+                                                    <a href="#">
+                                                        <h3 class="text_over">
+                                                            아로하
+                                                    </h3>
+                                                    </a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">
+                                                        <p>
+                                                            조정석
+                                                       </p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p class="transform">
+                                                    04:11
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="after mam_1A_1A_1 mam_1A_1A_1D">
+                                            <div>
+                                                <a href="#">
+                                                   <i class="far fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <div>
+                                                    <a href="#"></a>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div>
+                                                    <a href="#">
+                                                        <h3 class="text_over">
+                                                            살짝 설렜어 (Nonstop)
+                                                    </h3>
+                                                    </a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">
+                                                        <p>
+                                                            오마이걸
+                                                       </p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p class="transform">
+                                                    03:24
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="after mam_1A_1A_1 mam_1A_1A_1E">
+                                            <div>
+                                                <a href="#">
+                                                   <i class="far fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <div>
+                                                    <a href="#"></a>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div>
+                                                    <a href="#">
+                                                        <h3 class="text_over">
+                                                            ON
+                                                    </h3>
+                                                    </a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">
+                                                        <p>
+                                                            방탄소년단
+                                                       </p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p class="transform">
+                                                    05:55
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mam_1A_2">
+                                    <h2>NEWS</h2>
+                                    <div>
+                                        <a href="#"><i class="fas fa-times"></i></a>
+                                        <ul class="panel after">
+                                            <li class="mam_AA">
+                                                <a href="#"></a>
+                                            </li>
+                                            <li class="mam_AB">
+                                                <a href="#"></a>
+                                            </li>
+                                            <li class="mam_AC">
+                                                <a href="#"></a>
+                                            </li>
+                                            <li class="mam_AD">
+                                                <a href="#"></a>
+                                            </li>
+                                            <li class="mam_AE">
+                                                <a href="#"></a>
+                                            </li>
+                                            <li class="mam_AB">
+                                                <a href="#"></a>
+                                            </li>
+                                        </ul>
+                                    </div>                                  
+                                    <a href="#" class="mam_2A_next">
+                                        <i class="fas fa-chevron-left slid_left transform"></i>
+                                    </a>
+                                    <a href="#" class="mam_2A_prev">
+                                        <i class="fas fa-chevron-right slid_right transform"></i>
+                                    </a>
+                                </div>
+                                <div class="mam_1A_3 mam_1A_3A">
+                                    <a href="#">
+                                       <div></div>
+                                        <h2 class="transform">CHART</h2>
+                                    </a>
+                                </div>
+                                <div class="mam_1A_4 mam_1A_3A">
+                                    <a href="#">
+                                       <div></div>
+                                        <h2 class="transform">NEW RELEASE</h2>
+                                    </a>
+                                </div>
+                                <div class="mam_1A_5 mam_1A_3A">
+                                    <a href="#">
+                                       <div></div>
+                                        <h2 class="transform">DISCOVER</h2>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="mam_1 mam_1B after">
+                                <a href="#" class="mam_1B_1 after">
+                                    <h2>Recommended Albums</h2>
+                                </a>
+                                <a href="#" class="mam_1B_1">
+                                    <p><i class="fas fa-plus"></i>show more</p>
+                                </a>                              
+                                <div class="mam_1B_2">
+                                    <a href="#">
+                                        <div></div>
+                                        <h3 class="transform text_over">
+                                            사춘기집Ⅱ 꽃 본 나비
+                                        </h3>
+                                        <p class="transform text_over">
+                                            볼빨간 사춘기
+                                        </p>
+                                        <ul>
+                                            <li class="icon1">
+                                                <i class="far fa-play-circle on icon1"></i>
+                                            </li>
+                                            <li class="icon2">
+                                                <i class="fas fa-plus icon2"></i>
+                                            </li>
+                                        </ul>
+                                    </a>                                
+                                </div>
+                                <div class="mam_1B_3">
+                                    <a href="#">
+                                        <div></div>
+                                        <h3 class="transform text_over">
+                                            에잇
+                                        </h3>
+                                        <p class="transform text_over">아이유</p>
+                                        <ul>
+                                            <li class="icon1">
+                                                <i class="far fa-play-circle on icon1"></i>
+                                            </li>
+                                            <li class="icon2">
+                                                <i class="fas fa-plus icon2"></i>
+                                            </li>
+                                        </ul>
+                                    </a>
+                                </div>
+                                <div class="mam_1B_4">
+                                    <a href="#">
+                                        <div></div>
+                                        <h3 class="transform text_over">
+                                            슬기로운 의사생활 OST Part 12
+                                        </h3>
+                                        <p class="transform text_over">미도와 파라솔</p>
+                                        <ul>
+                                            <li class="icon1">
+                                                <i class="far fa-play-circle on icon1"></i>
+                                            </li>
+                                            <li class="icon2">
+                                                <i class="fas fa-plus icon2"></i>
+                                            </li>
+                                        </ul>
+                                    </a>
+                                </div>
+                                <div class="mam_1B_5">
+                                    <a href="#">
+                                        <div></div>
+                                        <h3 class="transform text_over">
+                                            영혼수선공 OST Part.3
+                                        </h3>
+                                        <p class="transform text_over">
+                                            SURAN (수란)
+                                        </p>
+                                        <ul>
+                                            <li class="icon1">
+                                                <i class="far fa-play-circle on icon1"></i>
+                                            </li>
+                                            <li class="icon2">
+                                                <i class="fas fa-plus icon2"></i>
+                                            </li>
+                                        </ul>
+                                    </a>
+                                </div>
+                                <div class="mam_1B_6">
+                                    <a href="#">
+                                        <div></div>
+                                        <h3 class="transform text_over">
+                                            사랑의 콜센타 PART8    
+                                        </h3>
+                                        <p class="transform text_over">Various Artists</p>
+                                        <ul>
+                                            <li class="icon1">
+                                                <i class="far fa-play-circle on icon1"></i>
+                                            </li>
+                                            <li class="icon2">
+                                                <i class="fas fa-plus icon2"></i>
+                                            </li>
+                                        </ul>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mainmenu mainmenu2">
+                        <div class="mam_2A">
+                            <a href="#">
+                                <i class="far fa-times-circle"></i>
                             </a>
                         </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="after con con_box2">
-                <ul>
-                    <li>
-                        <h1>
-                            르쉬느아(Le Chinois)
-                        </h1>
-                        <div class="con_box2_img1"></div>
-                        <div>
-                            <p>
-                                <strong>스타셰프가 빚어내는 정통과 품격이 살아있는 광둥요리, 르 쉬느아</strong><br>
-                                <br>
-                                30년 경력의 중식 스타셰프 알란 찬(Alan Chan Wai Lun) 셰프가 선보이는 정통과 품격이 살아있는 광둥식 요리를 만나 보자. 특별한 가족 외식에 잘 어울리는 메뉴인 북경오리부터 육즙과 풍미 가득한 샤오롱바오와 다채로운 딤섬 20여 가지를 맛 볼 수 있는 딤섬 브런치까지,  제주에서 맛 볼 수 없었던 품격 있는 중식을 선보이며, 제주 도민에게 사랑받는 레스토랑으로 거듭나고 있다.<br>
-                            </p>
+                        <div class="transform mam_2_0A">
+                            <input checked id="nav-chart" name="nav" type="radio"><label class="nav-chart" for="nav-chart">MUSIC</label>
+                            <input id="nav-playlist" name="nav" type="radio"><label class="nav-playlist" for="nav-playlist">M.V</label>
                         </div>
-                        <div>
-                            <a href="https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000007430&menuId=DOM_000001719001000000#p2" target="_blank">
-                                더보기 
-                                <i class="fas fa-chevron-circle-right"></i>
-                            </a>
-                        </div>
+                        <ul>
+                            <li class="mam_2_0">
+                            </li>
+                            <li class="mam_2_1">
+                                <div class="transform mam_2_1_1"></div>
+                            </li>
+                            <li class="mam_2_2">
+                                <h2>나비와 고양이 (feat.백현 (BAEKHYUN))</h2>
+                                <p>볼빨간사춘기</p>
+                            </li>
+                            <li class="mam_2_3">
+                                <div class="transform"></div>
+                                <div class="transform"></div>
+                            </li>
+                            <li class="mam_2_4 after">
+                                <p>00:00</p>
+                                <p>03:24</p>
+                            </li>
+                            <li class="mam_2_5">
+                                <a href="#">
+                                    <!-- 이부분은 전에 배웠던 누르면 이미지가 비뀌는 그걸 이용하면 됨 임시로 on 넣어놈-->
+                                    <i class="far fa-play-circle on"></i>
+                                    <i class="far fa-pause-circle"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fas fa-random"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fas fa-step-backward"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fas fa-step-forward"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fas fa-sync-alt"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </li>
-                </ul>
-                <ul>
-                    <li>
-                        <h1>
-                            명진전복
-                        </h1>
-                        <div class="con_box2_img2"></div>
-                        <div>
-                            <p>
-                                수요미식회 TV프로그램을 통해 소개된 적이 있는 명진전복은 전복돌솥밥, 전복구이, 전복죽 등을 판매하는 인기 맛집이다. <br>
-                                <br>
-                                오도독 씹히는 전복 식감에 달짝지근함을 더한 영양만점 전복돌솥밥과 제주산 전복으로 만든 요리의 처음과 끝을 여기서 만날 수 있다.<br>
-                                <br>
-                                바로 옆 양식장에서 키운 전복으로 구이, 죽, 회, 돌솥밥 등을 차린다. 대표 메뉴는 전복돌솥밥과 전복구이. 돌솥밥은 전복 내장인 ‘게웃’을 섞은 밥에 단호박, 고구마, 당근을 올렸다. <br>
-                                <br>
-                                밥 위에 전복 살과 고구마를 올려 한 숟갈 먹으면 고소하고 쌉싸래한 게웃의 향과 고구마의 단맛이 절묘하게 어우러진다.<br>
-                            </p>
-                        </div>
-                        <div>
-                            <a href="https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000020047&menuId=DOM_000001719001000000#p1" target="_blank">
-                                더보기 
-                                <i class="fas fa-chevron-circle-right"></i>
-                            </a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="after con con_box3">
-                <ul>
-                    <li>
-                        <h1>
-                            서귀포매일올레시장
-                        </h1>
-                        <div class="con_box3_img1"></div>
-                        <div>
-                            <p>
-                                <strong>매일매일 서귀포 시민들의 소박한 일상을 엿볼 수 있는 곳</strong><br>
-                                <br>
-                                대형마트로 인해 자리를 잃어가던 전통 시장이 제주의 향기가 물씬 나는 전통을 찾는 관광객들로 인해 다시 살아나기 시작하면서 ‘서귀포 매일 올레시장’ 역시 서귀포에서 가장 사랑받는 시장으로 자리매김하고 있다.<br>
-                                시장은 아케이드형으로 이루어져 있으며 규모가 서귀포 내에서 가장 크다.<br>
-                                매일매일 열리는 장임에도 불구하고 늘 활기차고 방문하는 사람들이 많은데, 그 이유가 바로 다양한 먹거리와 볼거리 때문이다.<br>
-                                흑돼지 크로켓이나 천혜향 음료, 오메기떡과 같이 제주에서만 맛볼 수 있는 특별한 음식들이 줄지어 있음은 물론이고,<br>
-                                제주와 관련된 포토존이 한쪽에 자리하고 있고, 야외 공연장에서 종종 공연도 한다고 하니 재미난 볼거리까지 제공해 준다.<br>
-                                약 300여 개의 점포로 적지 않은 수의 가게들이 있지만 깔끔하고 질서 있게 정돈되어 있어 길을 찾거나 구경하고, 다양한 음식을 맛보기에 최적화되어 있다.<br>
-                                올레시장에서는 고객의 편의를 위해 물건을 원하는 장소에 배달해주는 택배서비스까지 해준다고 하니, 제주만의 간식거리와 아기자기한 소품을 부담 없이 구매할 수 있다.<br>
-                            </p>
-                        </div>
-                        <div>
-                            <a href="https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500731&menuId=DOM_000001720005000000#p1" target="_blank">
-                                더보기 
-                                <i class="fas fa-chevron-circle-right"></i>
-                            </a>
-                        </div>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <h1>
-                            제주동문시장(동문재래시장)
-                        </h1>
-                        <div class="con_box3_img2"></div>
-                        <div>
-                            <p>
-                                전통이 있는 따스함과 정겨움으로 가득한 제주 동문 재래시장을 구경해보자.<br>
-                                제주에서 제일 크고 오래된 시장인 제주 동문 재래시장은 1945년에 형성되었으며 점차 관광객이 늘어나 발걸음이 잦아지면서 상업 중심지로서의 역할을 하고 있다. 곡식, 야채, 생선, 과일 등을 포함한 축산물, 수산물, 건어물뿐만 아니라 생활용품, 신발, 의류 등을 판매하고 있다. 또한 사시사철 각각 다른 가격, 맛으로 유명한 귤을 만나볼 수 있다.<br>
-                                <br>
-                                제주 동문 재래시장하면 떠오르는 것이 먹거리이다. 오메기떡, 빙떡이나 한라봉, 귤, 흑돼지와 관련한 먹거리가 가장 유명해 방송매체에서도 소개된 적이 있다.  대표적으로 대게 그라탱, 대게 크로켓, 우도땅콩 아이스크림 등이 있고 제주 특산물 또한 유명하다. 왠지 모를 따뜻함과 정겨움이 가득한 제주 동문 재래시장에서 제주도의 대표적인 먹거리와 시장의 인심을 만나보러 가보기를 추천한다.<br>
-                            </p>
-                        </div>
-                        <div>
-                            <a href="https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500745&menuId=DOM_000001720005000000#p1" target="_blank">
-                                더보기 
-                                <i class="fas fa-chevron-circle-right"></i>
-                            </a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div id="footer">
-            <div class="m_blackbox"></div>
-            <div class="f_text_box">
-                <h1>
-                    Q & A 뭐든지 물어보세요.
-                </h1>
-                <p>
-                    제주를 여행하시기 전에 궁금한것 이 있다면 물어보세요!
-                </p>
-            </div>
-            <div class="f_bt">
-                <ul class="after">
-                    <li>
-                        <a href="https://www.jeju.go.kr/online.htm" target="_blank">
-                            <i class="fas fa-headset"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://www.jeju.go.kr/online/hotline/minwon.htm" target="_blank">
-                            <i class="far fa-file-alt"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.jeju.go.kr/tool/smartminwon/jdo/left.jsp" target="_blank">
-                            <i class="far fa-comments"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.jeju.go.kr/online/hope.htm" target="_blank">
-                            <i class="far fa-lightbulb"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="f_bar">
-                <ul class="after">
-                    <li>
-                        Copyright 2019 제주특별자치도. All rights reserved<br>
-                        (63122) 제주특별자치도 제주시 문연로 6(연동) 대표전화:064-120 야간.공휴일 당직실 전환<br>
-                        6, Munyeon-ro, Jeju-si, Jeju-do, 63122, Republic of Korea Tel. 82-64-120064-120 
-                    </li>
-                    <li>
-                        <a href="https://pf.kakao.com/_xmfdxkC" target="_blank"></a>
-                    </li>
-                    <li></li>
                 </ul>
             </div>
         </div>
