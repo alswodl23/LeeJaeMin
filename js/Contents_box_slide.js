@@ -6,14 +6,15 @@ $(document).ready(function(){
         e.preventDefault();
 
         var tt = $(this);
-        var td = tt.index();
+        var i = tt.index();
 
         conclick.removeClass('on');
         tt.addClass('on');
 
-        $('.con').removeClass('on');
-        $('.con').eq(td).addClass('on');
+        // $('.con').removeClass('on');
+        // $('.con').eq(i).addClass('on');
 
+        $('.con>div').eq(i).fadeIn(500).siblings().fadeOut(500);
     });
 
 });

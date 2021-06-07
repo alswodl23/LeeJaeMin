@@ -2,6 +2,8 @@ $(document).ready(function(){
 
     var pos2 = $('#wrap>div').eq(1).offset().top;
     var pos3 = $('#wrap>div').eq(2).offset().top;
+    var pos4 = $('#wrap>div').eq(3).offset().top;
+    var pos5 = $('#wrap>div').eq(4).offset().top;
 
     $(window).on('scroll',function(){
         var scroll = $(this).scrollTop();
@@ -14,8 +16,14 @@ $(document).ready(function(){
         if(scroll>=(pos2 - 200) && scroll<(pos3 - 200)){
             $('.Side_rignt>ul>li').eq(1).addClass('on');
         }
-        if(scroll>=(pos3 - 200)){
+        if(scroll>=(pos3 - 200) && scroll<(pos4 - 200)){
             $('.Side_rignt>ul>li').eq(2).addClass('on');
+        }
+        if(scroll>=(pos4 - 200) && scroll<(pos5 - 200)){
+            $('.Side_rignt>ul>li').eq(3).addClass('on');
+        }
+        if(scroll>=(pos5 - 200)){
+            $('.Side_rignt>ul>li').eq(4).addClass('on');
         }
     })
 
