@@ -41,7 +41,7 @@ $(document).ready(function(){
 
 			slidebtn.eq(n).trigger("click")
 
-		}, 3000);
+		}, 6000);
 
 	};    
 
