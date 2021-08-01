@@ -1,0 +1,10 @@
+E:\2021 Full-stack\C#과제\myNote\bin\Debug\myNote.exe.config
+E:\2021 Full-stack\C#과제\myNote\bin\Debug\myNote.exe
+E:\2021 Full-stack\C#과제\myNote\bin\Debug\myNote.pdb
+E:\2021 Full-stack\C#과제\myNote\obj\Debug\myNote.csproj.AssemblyReference.cache
+E:\2021 Full-stack\C#과제\myNote\obj\Debug\myNote.Form1.resources
+E:\2021 Full-stack\C#과제\myNote\obj\Debug\myNote.Properties.Resources.resources
+E:\2021 Full-stack\C#과제\myNote\obj\Debug\myNote.csproj.GenerateResource.cache
+E:\2021 Full-stack\C#과제\myNote\obj\Debug\myNote.csproj.CoreCompileInputs.cache
+E:\2021 Full-stack\C#과제\myNote\obj\Debug\myNote.exe
+E:\2021 Full-stack\C#과제\myNote\obj\Debug\myNote.pdb
